@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+int n ,years,remdays ,weeks,days;
+    n=400;
+    scanf("%d",&n);
+    years= n/365;
+    printf("Years: %d\n",years);
+    remdays=n%365;
+    weeks=remdays/7;
+    printf("Weeks: %d\n",weeks);
+    days=remdays%7;
+    printf("Days: %d",days);
+
+    return 0;
+}
