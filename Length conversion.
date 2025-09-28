@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    double cm, m,km;
+    scanf("%lf%lf%lf",&cm,m,km);
+    m= cm/100;
+    km= cm/100000;
+    printf("%.2lf %.2lf",m,km);  
+    return 0;
+}
